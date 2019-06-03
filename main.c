@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "Chapter01/Problem01-IsUnique/isUnique.h"
+#include "Chapter01/chapter1.h"
 
 int main() {
 	int chapter, problem;
@@ -11,6 +11,9 @@ int main() {
 			switch (problem) {
 				case 1:
 					Chapter01Problem01_IsUniqueTest();
+					break;
+				case 2:
+					Chapter01Problem02_Permutation();
 					break;
 				default:
 					printf("\nProblem Not Found!");
